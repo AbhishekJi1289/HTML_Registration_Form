@@ -4,36 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h1><u>Registration Form</u></h1> <br>
-    <h3><u>Hello students this is a Registration Form from <B>GPM</B></u> </h3><br>
-    <label for="name">Name: <br>
-    <input type="text" placeholder="Enter your name" required></label><br><br>
-    <label for="email">Email:</label><br>
-    <input type="email" placeholder="Enter your email" required><br><br>
-    <label for="password">Password:</label><br>
-    <input type="password" placeholder="Enter your password" required><br><br>
-    <label for="roll number">Roll Number</label><br>
-    <input type="text" placeholder="Enter your roll number" required><br><br>
-    <label for="Semester">Semester:</label><br>
-    <label for="101">
-   <input type="radio" name="semester" value="1st Semester" id="101" required> 1st Semester
-    </label><br>
-    <label for="102"><input type="radio" name="semester" value="2nd Semester"  id="102" required> 2nd Semester
-    </label><br>
-    <label for="103"><input type="radio" name="semester" value="3rd Semester"  id="103" required> 3rd Semester
-    </label><br>
-    <label for="104"><input type="radio" name="semester" value="4th Semester"  id="104" required> 4th Semester
-    </label><br>
-    <label for="105"><input type="radio" name="semester" value="5th Semester"  id="105" required> 5th Semester
-    </label><br>
-    <label for="106"><input type="radio" name="semester" value="6th Semester"  id="106" required> 6th Semester
-    </label><br>
 
-    
-    <br><input type="button" value="Submit" onclick="alert('Form submitted successfully!')"><br><br>
-   
-        
+<!-- Header Started -->
+    <header>
+        <div class="heading">
+            <h2>Registration Form</h2> 
+        </div>
+    </header>
+<!-- Header Ended -->
+
+    <main>
+      <div class="name">
+        <h3 style="margin: 15px 0 7px;">Please enter your name</h3>
+        <br>
+        <input type="text" style="height: 20px;" placeholder="Enter your name" required></input>
+      </div>
+      <div class="email">
+        <h3 style="margin: 15px 0 7px;">Please enter your Email</h3>
+        <br>
+        <input type="email" style="height: 20px;" placeholder="Enter your email" id="email" required></input>
+      </div>
+      <div class="pass">
+        <h3 style="margin: 15px 0 7px;">Enter your password</h3>
+        <br>
+        <input type="password" style="height: 20px;" placeholder="Enter password" id="pass" required></input>
+      </div>
+      <div class="day">
+        <h3>Select Day</h3>
+        <select name="day" id="day">
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thrusday">Thrusday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+      </div>
+      <div class="date">
+        <h3>Select Date</h3>
+        <input type="date" id="date"></input>
+      </div>
+      <div class="gender">
+      <h3>Select Gender</h3><br>
+      <label for="101"><input type="radio" value="male" name="gen" id="101" required>Male</input></label><br>
+      <label for="102"><input type="radio" value="female" name="gen" id="102" required>Female</input></label><br>
+      <label for="103"><input type="radio" value="other" name="gen" id="103" required>Other</input></label><br>
+      </div>
+      <button>submit</button>
+    </main>
 </body>
-</html><label for="10"></label>
+</html>
