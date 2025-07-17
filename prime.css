@@ -1,0 +1,352 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    letter-spacing: .49px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #00050D;
+    color: white;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.menu{
+    position: relative;
+    left: 160px;
+    margin-top:170px;
+}
+li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 25px 20px;
+}
+.logo{
+    width: 90px;
+    height: 18px;
+    position: relative;
+    top: 235px;
+    margin-left: 70px;
+}
+#img{
+    width: 90px;
+    height: 18px;
+   
+}
+.en{
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -102px;
+    left: 1225px;
+    height: 42px;
+    width: 81px;
+    border-radius: 8px;
+}
+.en:hover{
+    background-color: #DDDDDD;
+}
+#en{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    height: 42px;
+    width: 81px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+#en:hover{
+    color: #00050D;
+}
+.mlp{
+    background-image: url(MLP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680PX;
+    width: 1585px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+.tvod{
+    background-image: url(tvod.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 675PX;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 740px;
+}
+.welcome{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 680px;
+    width: 1000px;
+    background-image: linear-gradient(to right, black , transparent);
+}
+.welcome h1{
+    position: absolute;
+    top: 40px;
+    font-size: 50px;
+    margin-left: 70px;
+}
+.welcome p{
+    position: absolute;
+    top: 155px;
+    width: 700px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.tvodback{
+    position: absolute;
+    top: 740px;
+    left: 0;
+    height: 675px;
+    width: 1500px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.862) ,  transparent);
+    background-size: cover;
+}
+.tvodback h1{
+    position: absolute;
+    top: 150px;
+    font-size: 50px;
+    margin-left: 70px;
+}
+.tvodback p{
+    position: absolute;
+    top: 265px;
+    width: 700px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.line{
+    position: absolute;
+    top: 47px;
+    left: 460px;
+    width: 2px;
+    height: 24px;
+    background-color: #FFFFFF66;
+}
+#search{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+#search:hover{
+    color: #00050D;
+}
+#downs{
+    display: block;
+    height: 60px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: px;
+    z-index: 1;
+}
+#downs:hover{
+    color: #00050D;
+}
+.icon{
+    position: relative;
+    top: -60px;
+    left: 1180px;
+    height: 42px;
+    width: 44px;
+    color: white;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: #DDDDDD;
+}
+button{
+    position: relative;
+    top: 275px;
+    left: 70px;
+    height: 62px;
+    width: 228px;
+    border-radius: 10px;
+    padding: 0;
+}
+button:hover{
+    position: relative;
+    top: 275px;
+    left: 70px;
+    transform: scale(1.01);
+    border-radius: 10px;
+    background-color: #DDDDDD;
+}
+#anchor{
+    color: #00050D;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    height: 62px;
+    width: 228px;
+    position: relative;
+    top: 13px;
+}
+#anchor:hover{
+   font-size: 21px;
+   color: #999aaa;
+}
+.btn{
+    position: relative;
+    top: 275px;
+    left: 70px;
+    height: 62px;
+    width: 126px;
+    border-radius: 10px;
+    padding: 0;
+}
+.btn:hover{
+    position: relative;
+    top: 275px;
+    left: 70px;
+    transform: scale(1.01);
+    border-radius: 10px;
+    background-color: #DDDDDD;
+}
+#anchor2{
+    color: #00050D;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    height: 62px;
+    width: 126px;
+    position: relative;
+    top: 13px;
+}
+#anchor2:hover{
+   font-size: 21px;
+   color: #999999;
+}
+#grid{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.grid{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 130px;
+    left: 1320px;
+    background-color: white;
+}
+.mainend{
+    padding: 72px;
+    background-color: #00050D;
+    display: inline-block;
+    height: 650px;
+    width: 1585px;
+    position: absolute;
+    top: 1410px;
+    left: 0;
+    right: 0;
+}
+.place{
+    display: inline-block;
+    height: 493px;
+    width: 707px;
+    position: absolute;
+}
+.place h1{
+    height: 138px;
+    width: 706px;
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    margin: 0;
+    line-height: 50px;
+}
+.place p{
+    height: 50px;
+    width: 706px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.allboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    right: 72px;
+    gap: 10px;
+    width: 707px;
+    height: 493px;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box img {
+    width: 229px;
+    height: 157px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+}
+footer{
+    background-color: #222222;
+    display: block;
+    height: 136px;
+    width: 1585px;
+    position: absolute;
+    top: 2055px;
+    left: 0;
+    padding: 24px;
+    text-align: center;
+}
+footer img{
+    height: 32px;
+    width: 105px;
+}
+footer ol{
+    height: 20px;
+    width: 1585px;
+    margin: 4px 0 14px;
+    position: absolute;
+    top: 66px;
+}
+footer ol li a{
+    color: #79bbf3;
+    font-weight: normal;
+    font-size: 15px;
+}
+footer p{
+    position: absolute;
+    top: 100px;
+    left: 640px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+    color: #8197a4;
+}
